@@ -12,7 +12,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   color: #272142;
@@ -56,9 +58,11 @@ p {
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
+  color: #ffff;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
 }
 
 .btn-branding :hover {
@@ -81,10 +85,10 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 56px;
   }
 
   h2 {
@@ -94,8 +98,41 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  margin: 20px 0 0;
+  line-height: 1.5;
+}
+
+.content p {
+  font-size: 14px;
+}
+.content {
+  padding: 120px 60px;
+}
+
+.content {
+  margin: 30px;
 }
