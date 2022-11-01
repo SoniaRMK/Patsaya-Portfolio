@@ -42,6 +42,9 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -93,6 +96,10 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   .hero {
@@ -179,6 +186,16 @@ footer {
   margin: 60px 0;
 }
 
+footer.contact-box p {
+  margin: 0;
+}
+
+footer .contact-box {
+  background-color: var(--secondry-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
@@ -186,4 +203,10 @@ footer .social-links a {
   padding: 10px 14px;
   border-radius: 50px;
   font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #ffff;
+  background-color: var(--branding-color);
 }
