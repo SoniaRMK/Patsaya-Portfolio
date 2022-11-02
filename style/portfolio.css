@@ -98,7 +98,7 @@ p {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 26px;
   }
 
@@ -137,7 +137,7 @@ p {
   font-size: 14px;
 }
 .content {
-  padding: 120px 60px;
+  padding: 65px 60px;
 }
 
 .content {
@@ -173,9 +173,9 @@ nav {
 footer .email-link {
   text-decoration: none;
   color: #272142;
-
   text-align: center;
   font-size: 24px;
+  margin-top: 50px;
 }
 
 footer .email-link:hover {
@@ -194,6 +194,7 @@ footer .contact-box {
   background-color: var(--secondry-color);
   padding: 30px 120px;
   border-radius: 10px;
+  margin-top: 65px;
 }
 
 footer .social-links a {
